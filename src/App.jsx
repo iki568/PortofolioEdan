@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./component/navbar";
-import Footer from "./component/footer";
+import Navbar from "./component/Navbar";
+import Footer from "./component/Footer";
 import PrivateRoute from "./component/PrivateRoute";
 import GuestRoute from "./component/GuestRoute";
-import Home from "./pages/home";
-import About from "./pages/about";
+import Home from "./pages/Home";
+import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Contact from "./pages/contact";
+import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
