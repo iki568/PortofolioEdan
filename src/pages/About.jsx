@@ -12,7 +12,7 @@ function About() {
       onTouchEnd={() => setIsActive(false)}
     >
       <img
-        src="/image/profile.jpeg"
+        src={`${import.meta.env.VITE_BASE_URL}/image/profile.jpeg`}
         alt="Foto Profil"
         className={`profile-photo ${isActive ? "profile-photo--visible" : ""}`}
       />
